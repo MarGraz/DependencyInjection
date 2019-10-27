@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TightlyCoupled", "TightlyCoupled\TightlyCoupled.csproj", "{033E430E-1402-48FA-8158-E199F4D2A755}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Tightly Coupled - Esempio classi con legame stretto", "1 Tightly Coupled - Esempio classi con legame stretto", "{48BD4DE6-B505-4FD0-92EE-9686A4A99D34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Constructor Injection - Esempio Dependency Injection", "2 Constructor Injection - Esempio Dependency Injection", "{6F6F7EFB-21C9-4FDC-9FA7-2628FD0BCE31}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstructorInjection", "ConstructorInjection\ConstructorInjection.csproj", "{6C144C43-6986-4D8A-9951-0320FEA39379}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Property Injection - Esempio Dependency Injection", "3 Property Injection - Esempio Dependency Injection", "{2C4D4877-3CA8-4644-AB47-DE7BF731B0D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PropertyInjection", "PropertyInjection\PropertyInjection.csproj", "{38E3D3E4-D7AF-472B-BB14-F30FBFE2F488}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 Method Injection - Esempio Dependency Injection", "4 Method Injection - Esempio Dependency Injection", "{B9C8F52D-F5D9-4B54-8115-4DAA3B23CFA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodInjection", "MethodInjection\MethodInjection.csproj", "{A2FE89AC-0AD8-4044-9964-3FBFE7F88805}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{033E430E-1402-48FA-8158-E199F4D2A755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{033E430E-1402-48FA-8158-E199F4D2A755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{033E430E-1402-48FA-8158-E199F4D2A755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{033E430E-1402-48FA-8158-E199F4D2A755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C144C43-6986-4D8A-9951-0320FEA39379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C144C43-6986-4D8A-9951-0320FEA39379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C144C43-6986-4D8A-9951-0320FEA39379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C144C43-6986-4D8A-9951-0320FEA39379}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38E3D3E4-D7AF-472B-BB14-F30FBFE2F488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38E3D3E4-D7AF-472B-BB14-F30FBFE2F488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38E3D3E4-D7AF-472B-BB14-F30FBFE2F488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38E3D3E4-D7AF-472B-BB14-F30FBFE2F488}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2FE89AC-0AD8-4044-9964-3FBFE7F88805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2FE89AC-0AD8-4044-9964-3FBFE7F88805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2FE89AC-0AD8-4044-9964-3FBFE7F88805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2FE89AC-0AD8-4044-9964-3FBFE7F88805}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{033E430E-1402-48FA-8158-E199F4D2A755} = {48BD4DE6-B505-4FD0-92EE-9686A4A99D34}
+		{6C144C43-6986-4D8A-9951-0320FEA39379} = {6F6F7EFB-21C9-4FDC-9FA7-2628FD0BCE31}
+		{38E3D3E4-D7AF-472B-BB14-F30FBFE2F488} = {2C4D4877-3CA8-4644-AB47-DE7BF731B0D0}
+		{A2FE89AC-0AD8-4044-9964-3FBFE7F88805} = {B9C8F52D-F5D9-4B54-8115-4DAA3B23CFA9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77CED05D-20FB-4223-A9E9-7DB43196886D}
+	EndGlobalSection
+EndGlobal
